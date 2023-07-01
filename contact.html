@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="bio.html">About me</a></li>
+      <li><a href="qualifi.html">Qualification</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact me</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <section id="introduction">
+   
+    <p>Welcome to my contact page. I look forward to connecting with you. Please feel free to reach out using any of the following methods:</p>
+  </section>
+
+  <section id="contact-info">
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: <a href="mailto:bricorre2345@gmail.com">bricorre2345@gmail.com</a></li>
+      <li>Phone: <a href="tel:+91 9658472145 ">+91 9658472145</a></li>
+      <li>Social Media:</li>
+      <ul>
+        <li>LinkedIn:<a href="https://www.linkedin.com/in/britney-correia-a69124258/"> britney-correia-a69124258/ </a></li>
+       
+      </ul>
+    </ul>
+  </section>
+
+  <section id="contact-form">
+    <h2>Contact Form</h2>
+    <form onsubmit="return submitForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+    <p id="form-status"></p>
+  </section>
+</body>
+</html>

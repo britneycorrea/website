@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bio Page</title>
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+           background-color:aliceblue ;
+        }
+
+        h1 {
+          color: whitesmoke;
+          font-size: 30px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+        
+        .left-container {
+            flex: 1;
+            background-color:#c0c9cd;
+            padding: 40px;
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .right-container {
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            background-color:#185370;
+            margin-top: 100px;
+        }
+        
+        .right-container img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-top: auto;
+            margin-bottom: 10px;
+        }
+        
+        .right-container p {
+            font-size: 18px;
+        }
+        
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            height: 50px;
+            display: flex;
+            
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="bio.html">About me</a></li>
+      <li><a href="qualifi.html">Qualification</a></li>
+      <li><a href="achieve.html">Achievement</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact me</a></li>
+    </ul>
+  </nav>
+    <div class="container">
+        <div class="left-container">
+            <h2>About Me</h2><br>
+            <p>I'm Britney Correia, a computer science engineer hailing from Karwar, Karnataka. I am currently residing in Manglore for my studies. I am pursuing a bachelor's degree in computer science & engineering. I am a curious and passionate individual with a love for learning. I have a keen interest in technology and problem-solving. I enjoy exploring innovative solutions and staying updated with the latest advancements in the field. Apart from my technical pursuits, I find joy in engaging in hobbies like reading and crafting which provide a creative outlet for me. I believe in continuous learning and personal growth, and I'm excited to collaborate with others to make a positive impact using my technical skills.</p>
+        </div>
+        <div class="right-container">
+            <img src="images/profile.jpeg.jpeg" alt="Your Picture">
+            <h1>Britney correia</h1>
+            <p>Computer science engineer</p>
+        </div>
+    </div>
+</body>
+</html>

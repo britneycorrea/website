@@ -1,0 +1,19 @@
+<body>
+    <script>
+      // Use the Fetch API to load the external HTML file
+      fetch('external-content.html')
+        .then(response => response.text())
+        .then(data => {
+          // Insert the fetched HTML content into a <div> element
+          const container = document.createElement('div');
+          container.innerHTML = data;
+          
+          // Append the <div> element to the body of the current HTML file
+          document.body.appendChild(container);
+        })
+        .catch(error => {
+          console.log('Error:', error);
+        });
+    </script>
+  </body>
+  
